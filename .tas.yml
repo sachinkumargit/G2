@@ -1,14 +1,16 @@
 ---
-framework: "jest"
-postMerge:
-    pattern:
-    - "./tests/**/*-spec.ts"            # Glob pattern to path where tests that should run post-merge are written
+framework: jest
+tier: xlarge
+postMerge: 
+  pattern: 
+    - "./tests/**/*-spec.ts"
 preMerge:
-    pattern:
-    - "./tests/**/*-spec.ts"              # Glob pattern to path where tests that should run pre-merge are written
+  pattern:
+    - "./tests/**/*-spec.ts"
 preRun:
-    - npm install
-    - npm run build
+     command:
+        - npm install
 postRun:
-    - node --version
-version: 2.0
+     command:
+        - node --version
+version: 2.1
