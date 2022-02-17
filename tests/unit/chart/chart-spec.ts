@@ -158,7 +158,7 @@ describe('Chart', () => {
     chart.on(VIEW_LIFE_CIRCLE.AFTER_CLEAR, clearEvent);
 
     chart.clear();
-    expect(clearEvent).toBeCalledTimes(3);
+    expect(clearEvent).toBeCalledTimes(2);
 
     // @ts-ignore
     expect(chart.filteredData).toEqual([]);
