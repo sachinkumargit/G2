@@ -1,6 +1,6 @@
 ---
 framework: jest
-tier: xlarge
+tier: small
 postMerge:
   pattern:
     - "./tests/unit/chart/chart-spec.ts"
