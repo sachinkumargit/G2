@@ -9,7 +9,7 @@ preMerge:
     - "./tests/unit/chart/chart-spec.ts"
 preRun:
      command:
-        - npm install
+        - yarn install
 postRun:
      command:
         - node --version
