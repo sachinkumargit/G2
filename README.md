@@ -121,4 +121,3 @@ $ npm start
 钉钉群组号码: 30233731 / 35686967 (2 群)
 
 <img src="https://gw.alipayobjects.com/zos/antfincdn/8qEHi7GiaN/G2Plot-dingding.JPG" width="200" height="266" />
-<!-- sachin -->
